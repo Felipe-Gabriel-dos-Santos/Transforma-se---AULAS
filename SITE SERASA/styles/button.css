@@ -1,0 +1,15 @@
+button {
+  background-color: #f0265c;
+  width: 90%;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid cornsilk;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background-color: #cc1d4c;
+  transition: 0.5s ease-in-out;
+}

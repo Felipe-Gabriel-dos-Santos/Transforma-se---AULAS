@@ -1,0 +1,15 @@
+header {
+  background-color: #eff4f9;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+header > section {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+img.logo {
+  height: 40px;
+}
