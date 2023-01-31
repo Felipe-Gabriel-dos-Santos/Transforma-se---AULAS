@@ -10,6 +10,19 @@ main {
   align-items: center;
 }
 
+div.column.about > .presentation.text {
+  align-self: flex-start;
+}
+
+div.column.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding: 7rem;
+}
+
 div.column.introduction {
   background: linear-gradient(
     90deg,
