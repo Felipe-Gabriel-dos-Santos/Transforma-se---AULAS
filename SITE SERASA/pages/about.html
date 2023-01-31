@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/button.css" />
+    <title>Sobre</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <img
+          src="../images/serasa-logo.png"
+          alt="logo do serasa"
+          class="logo"
+        />
+      </section>
+    </header>
+    <main>
+      <div class="main column about">
+        <p class="presentation text">SOBRE</p>
+        <p class="introduction text">
+          A Serasa é um braço da Serasa Experian e tem como propósito
+          revolucionar o acesso ao crédito no Brasil. Para isso, oferece um
+          ecossistema completo voltado à melhoria da saúde financeira da
+          população com produtos e serviços digitais que permitem que o
+          consumidor consulte a sua pontuação de crédito (Serasa Score), negocie
+          suas dívidas (Serasa Limpa Nome), solicite empréstimo e cartões de
+          crédito (Serasa eCred), monitore seus dados (Serasa Premium) e
+          mantenha sua própria carteira digital para pagamento de todo tipo de
+          contas e contratação de serviços. Tudo isso de forma simples e
+          acessível via aplicativo ou site. Vencedora no Prêmio “Reclame Aqui”
+          na categoria Soluções Financeiras por três anos consecutivos (2020 a
+          2022), a empresa segue investindo em tecnologias para otimizar o
+          atendimento e atender os consumidores em todos os ambientes, inclusive
+          fora do digital. Para mais informações, visite www.serasa.com.br.
+        </p>
+        <button class="button nav back">Voltar</button>
+      </div>
+      <div class="main column presentation">
+        <img src="../images/credit_card.svg" height="300px" />
+      </div>
+    </main>
+    <script>
+      document
+        .querySelector("button.nav.back")
+        .addEventListener("click", (e) => {
+          e.preventDefault();
+          window.location.href = "../index.html";
+        });
+    </script>
+  </body>
+</html>
