@@ -16,11 +16,13 @@ div.column.about > .presentation.text {
 
 div.column.about {
   display: flex;
+  max-height: 100%;
+  overflow-x: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 20px;
-  padding: 7rem;
+  padding: 1rem 5rem;
 }
 
 div.column.introduction {
